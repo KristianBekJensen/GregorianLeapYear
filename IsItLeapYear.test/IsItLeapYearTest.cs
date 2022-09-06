@@ -9,7 +9,7 @@ public class IsItLeapYearTest
         //var program = new LeapYearFinder();
         
          // Act
-        bool isleapyear = LeapYearFinder.IsItLeapYear(1700);
+        bool isleapyear = LeapYearFinder.IsLeapYear(1700);
         
 
         // Assert
@@ -23,7 +23,7 @@ public class IsItLeapYearTest
         //var program = new LeapYearFinder();
         
          // Act
-        bool isleapyear = LeapYearFinder.IsItLeapYear(2000);
+        bool isleapyear = LeapYearFinder.IsLeapYear(2000);
         
 
         // Assert
@@ -37,7 +37,7 @@ public class IsItLeapYearTest
         //var program = new LeapYearFinder();
         
          // Act
-        bool isleapyear = LeapYearFinder.IsItLeapYear(2001);
+        bool isleapyear = LeapYearFinder.IsLeapYear(2001);
         
 
         // Assert
@@ -51,7 +51,7 @@ public class IsItLeapYearTest
         //var program = new LeapYearFinder();
         
          // Act
-        bool isleapyear = LeapYearFinder.IsItLeapYear(2004);
+        bool isleapyear = LeapYearFinder.IsLeapYear(2004);
         
 
         // Assert
