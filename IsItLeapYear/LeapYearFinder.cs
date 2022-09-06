@@ -2,7 +2,7 @@ namespace IsItLeapYear;
 
 public class LeapYearFinder
 {
-    public static bool IsItLeapYear(int year){
-        return true;
+    public static bool IsLeapYear(int year){
+        return year % 4 == 0 && (year % 100 != 0 || year % 400 == 0);
     }
 }
