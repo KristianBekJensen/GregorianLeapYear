@@ -6,12 +6,10 @@ public class IsItLeapYearTest
     public void Is1700LeapYear()
     {
         // Arrange
-        //var program = new LeapYearFinder();
         
          // Act
         bool isleapyear = LeapYearFinder.IsLeapYear(1700);
         
-
         // Assert
         isleapyear.Should().Be(false);
     }
@@ -20,12 +18,10 @@ public class IsItLeapYearTest
     public void Is2000LeapYear()
     {
         // Arrange
-        //var program = new LeapYearFinder();
         
          // Act
         bool isleapyear = LeapYearFinder.IsLeapYear(2000);
         
-
         // Assert
         isleapyear.Should().Be(true);
     }
@@ -34,12 +30,10 @@ public class IsItLeapYearTest
     public void Is2001LeapYear()
     {
         // Arrange
-        //var program = new LeapYearFinder();
         
          // Act
         bool isleapyear = LeapYearFinder.IsLeapYear(2001);
         
-
         // Assert
         isleapyear.Should().Be(false);
     }
@@ -48,12 +42,10 @@ public class IsItLeapYearTest
     public void Is2004LeapYear()
     {
         // Arrange
-        //var program = new LeapYearFinder();
         
          // Act
         bool isleapyear = LeapYearFinder.IsLeapYear(2004);
         
-
         // Assert
         isleapyear.Should().Be(true);
     }
